@@ -29,16 +29,6 @@ Enhancements and Findings
     Hyperparameter Tuning: Implemented StepLR learning rate scheduling with the Adam optimizer, beginning with a learning rate of 0.0001.
     Scalability: Transitioned from a 2-qubit to a 10-qubit system, allowing the model to represent a larger state space, thus enhancing its computational capacity.
 
-#Repository Structure
-
-plaintext
-
-├── data/                   # Contains datasets used in the experiments
-├── models/                 # Neural network models and quantum annealing layer
-├── scripts/                # Training and testing scripts
-├── results/                # Experimental results and accuracy logs
-├── README.md               # Overview of the project
-└── requirements.txt        # Required packages and dependencies
 
 #Getting Started
 Prerequisites
@@ -55,19 +45,12 @@ Usage
 
     Training: Run the training script with various hyperparameters to test different configurations.
 
-    bash
 
-python scripts/train_model.py
 
 Testing and Evaluation: Evaluate model accuracy and performance after training.
 
-bash
 
-    python scripts/evaluate_model.py
 
-Experimental Results
-
-All results, including model accuracy and logs, are saved in the results/ directory.
 Future Work
 
 Further experiments could explore:
@@ -76,9 +59,6 @@ Further experiments could explore:
     Advanced neural network architectures to better leverage quantum components.
     More complex, real-world datasets to assess practical viability.
 
-References
-
-    [Insert references or links to any published papers]
 
 License
 
